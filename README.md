@@ -16,3 +16,14 @@ Your goal is to connect anonymized data back to its source data and check the ma
 
 ### Module 08: Sustainability in Computing
 You will be given a toy dataset and have the opportunity to explore the potential effects of choosing sustainable energy sources to perform computations. You'll code the energy calculation in "sustainability calculations" script, and then you can review the results of various decisions in the "check calculations" notebook. 
+
+## Personal Ethics Statement
+
+My main takeaway from Chapter 5 of *Ethical Machines* is that an ethics statement only matters if it changes what someone actually does. Saying "I value fairness and privacy" is easy, but it doesn't tell me what to do when a deadline or a good result pushes the other way. So these are the commitments I want to hold myself to as an engineer:
+
+- **Fairness:** I will test a model for bias before I trust its results, even when a protected attribute isn't one of its inputs, because other variables can stand in for it.
+- **Privacy:** I will not treat data as safe just because the names were removed. In Module 06, I re-identified 42.1% of "anonymized" records using only age, gender, and a 3-digit ZIP code.
+- **Honesty:** I will tell people what a system can't do and what its known risks are, even when that makes the project look worse.
+- **Speaking up:** If I believe something I'm working on could seriously harm people, I will raise it and refuse to ship it quietly.
+
+I care about these because the people affected by software usually have no say in how it gets built, so the people building it have to think about them.
